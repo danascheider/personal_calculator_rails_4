@@ -20,9 +20,12 @@ RSpec.describe "Personal Calculator", type: :rambo do
           "Content-Type" => "application/json"
         }
       end
-
+      
       let(:request_body) do
-        JSON.parse(File.read("spec/support/examples/age_post_request_body.json"), symbolize_names: true)
+        JSON.parse(
+          File.read("spec/support/examples/age_post_request_body.json"),
+          symbolize_names: true
+        )
       end
 
       let(:response_schema) do
