@@ -66,7 +66,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (11.2.2)
-    rambo_ruby (0.4.0)
+    rambo_ruby (0.6.0)
       activesupport (>= 4.0)
       colorize (~> 0.7)
       json-schema (~> 2.6)
@@ -126,7 +126,7 @@ DEPENDENCIES
   byebug
   jbuilder (~> 1.2)
   rails (= 4.0.0)
-  rambo_ruby (~> 0.4)
+  rambo_ruby (~> 0.6)
   rspec-rails (~> 3.5)
   sdoc
 

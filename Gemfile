@@ -14,7 +14,7 @@ gem 'jbuilder', '~> 1.2'
 group :test, :development do 
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5'
-  gem 'rambo_ruby', '~> 0.4'
+  gem 'rambo_ruby', '~> 0.6'
 end
 
 group :doc do
